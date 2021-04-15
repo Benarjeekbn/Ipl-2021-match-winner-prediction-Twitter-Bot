@@ -1,2 +1,5 @@
-![Screenshot 2021-04-15 230039](https://user-images.githubusercontent.com/73663598/114913118-71d6de00-9e3e-11eb-89c8-83bc53239cf2.png)
+
 # Ipl-2021-match-winner-prediction-Twitter-Bot
+Sample snip of the tweet!
+(https://user-images.githubusercontent.com/73663598/114913814-4274a100-9e3f-11eb-9645-d669dc446547.png)
+
