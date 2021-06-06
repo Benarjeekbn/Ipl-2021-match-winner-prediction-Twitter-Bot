@@ -5,10 +5,10 @@ import json
 from datetime import datetime, timedelta
 import time
 
-with open("/Users/benar/Desktop/bot/data.Json", encoding='utf-8-sig', errors='ignore') as json_data:
+with open("/data.Json", encoding='utf-8-sig', errors='ignore') as json_data:
      data = json.load(json_data, strict=False)
 
-#print(s['DATE & DAY'])
+
 
 l={'Royal Challengers Bangalore':'RCB',
    'Chennai Super Kings':'CSK',
@@ -42,17 +42,17 @@ for k,v in l.items():
 print(sc)
 random_index = randrange(len(sc))
 
-consumer_key='3wLLUBY8vhd3Xy0EIVHVbnIED'
-consumer_secret='LPtsPXNL0PEW7bdx3ulnRi3zS42pVTzg51ZzzVrE1sgdKQrT2o'
+consumer_key='xxxxxxxxxxxxxxxxxxxxx'
+consumer_secret='xxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
-access_token='1016913544036737025-lCTxlIw4EOr5aZqeThupq8IfaRajBu'
-access_token_secret='jcfNhTs9psgvXsvlAw3e61i1xxOhkRfSnewO1Y7DlV1sH'
+access_token='xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+access_token_secret='xxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 
 api = tweepy.API(auth)
-tweets=api.user_timeline(screen_name="Benarjeekbn",count=1)
+tweets=api.user_timeline(screen_name="xxxxxxx",count=1)
 for info in tweets[:3]:
     s="Id:{}".format(info.id)
     print(id)
